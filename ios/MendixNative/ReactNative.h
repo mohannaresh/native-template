@@ -26,6 +26,7 @@
 - (NSURL *) getJSBundleFile;
 - (NSString *) getCodePushKey;
 - (BOOL) useCodePush;
+- (BOOL) useFirebase;
 - (void) showAppMenu;
 - (void) toggleElementInspector;
 - (RCTBridge *) getBridge;
