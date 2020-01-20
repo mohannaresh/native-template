@@ -27,9 +27,9 @@
 		1A0B3AF323990C2400388BF7 /* config.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B3AF223990C2400388BF7 /* config.xcconfig */; };
 		1A0B3AFD23992F8200388BF7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		1A0B83DB22E09B2600EA1E51 /* Bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1A0B83DA22E09B2500EA1E51 /* Bundle */; };
+		1AAE158923C5FEFC00F855F4 /* SwiftInterop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */; };
 		1AC596AA23C4E5DE00E8733E /* libMendix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC596A923C4E5DE00E8733E /* libMendix.a */; };
 		1AC596AB23C4E5DE00E8733E /* libMendix.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1AC596A923C4E5DE00E8733E /* libMendix.a */; };
-		1AAE158923C5FEFC00F855F4 /* SwiftInterop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */; };
 		88A728C9C5341839D31AD238 /* libPods-ReactNative-nativeTemplate.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A85436D5B346B3EF009CB0A0 /* libPods-ReactNative-nativeTemplate.a */; };
 		D8FD153D7F187CD755D0AFEB /* libPods-ReactNative-dev.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8879F6E638838733B63014A3 /* libPods-ReactNative-dev.a */; };
 		EB55620C22E0755000E19C26 /* glyphicons-halflings-regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EB55620B22E0755000E19C26 /* glyphicons-halflings-regular.ttf */; };
@@ -60,6 +60,7 @@
 		1A0B3AF02399095C00388BF7 /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
 		1A0B3AF223990C2400388BF7 /* config.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = config.xcconfig; sourceTree = "<group>"; };
 		1A0B83DA22E09B2500EA1E51 /* Bundle */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Bundle; sourceTree = "<group>"; };
+		1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInterop.swift; sourceTree = "<group>"; };
 		1AC5969F23C4E5DD00E8733E /* MxConfiguration.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MxConfiguration.h; sourceTree = "<group>"; };
 		1AC596A023C4E5DD00E8733E /* ReactNative.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactNative.h; sourceTree = "<group>"; };
 		1AC596A123C4E5DD00E8733E /* WarningsFilter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WarningsFilter.h; sourceTree = "<group>"; };
@@ -71,7 +72,7 @@
 		1AC596A723C4E5DE00E8733E /* AppUrl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppUrl.h; sourceTree = "<group>"; };
 		1AC596A823C4E5DE00E8733E /* AppMenuProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppMenuProtocol.h; sourceTree = "<group>"; };
 		1AC596A923C4E5DE00E8733E /* libMendix.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libMendix.a; sourceTree = "<group>"; };
-		1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftInterop.swift; sourceTree = "<group>"; };
+		2C005A7823D5B1E200003E29 /* nativeTemplate.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; name = nativeTemplate.entitlements; path = nativeTemplate/nativeTemplate.entitlements; sourceTree = "<group>"; };
 		2E683DD88AD2190EB6610BB7 /* Pods-ReactNative-nativeTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative-nativeTemplate.debug.xcconfig"; path = "Target Support Files/Pods-ReactNative-nativeTemplate/Pods-ReactNative-nativeTemplate.debug.xcconfig"; sourceTree = "<group>"; };
 		3A1AE629EDD2EFAEE88E17A6 /* Pods-ReactNative-dev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactNative-dev.release.xcconfig"; path = "Target Support Files/Pods-ReactNative-dev/Pods-ReactNative-dev.release.xcconfig"; sourceTree = "<group>"; };
 		3A50E1C430A9EB98E247701D /* Pods-nativeTemplate.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nativeTemplate.debug.xcconfig"; path = "Target Support Files/Pods-nativeTemplate/Pods-nativeTemplate.debug.xcconfig"; sourceTree = "<group>"; };
@@ -128,6 +129,7 @@
 				13B07FB61A68108700A75B9A /* Info.plist */,
 				13B07FB11A68108700A75B9A /* LaunchScreen.xib */,
 				1AAE158823C5FEFC00F855F4 /* SwiftInterop.swift */,
+				2C005A7823D5B1E200003E29 /* nativeTemplate.entitlements */,
 			);
 			name = NativeTemplate;
 			sourceTree = "<group>";
@@ -589,6 +591,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				DEAD_CODE_STRIPPING = NO;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -663,6 +666,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -742,6 +746,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				DEVELOPMENT_TEAM = BC32QNM6AD;
@@ -789,6 +794,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
@@ -875,6 +881,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CURRENT_PROJECT_VERSION = 1;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -954,6 +961,7 @@
 				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_ENTITLEMENTS = nativeTemplate/nativeTemplate.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
